@@ -2,7 +2,7 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "Homelab Services"
+title: "· Homelab Services"
 subtitle: "Dima Denysenko's"
 logo: "https://avatars.githubusercontent.com/u/91197884?s=200&v=4"
 # icon: "fas fa-skull-crossbones" # Optional icon
@@ -50,7 +50,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "RESTful APIs, distributed services, cloud-native architecture."
   icon: "fa fa-grin"
-  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p><a href='https://github.com/KnowHowSpringBoot'><img align='center' src='https://github-readme-stats.vercel.app/api?username=dimdnk&show_icons=true&hide_rank=true&theme=dark&line_height=27&include_all_commits=true&count_private=true&hide=stars,issues' alt='github stats'/></a></p>"
+  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -98,32 +98,34 @@ services:
         subtitle: "manage workloads"
         tag: "orchestration"
         keywords: ""
-        url: "https://dashboard.c2a2.com/"
+        url: "https://dashboard.gee8.com/"
         target: "_blank" # optional html a tag target attribute
-
       - name: "Grafana"
         logo: "https://cdn.iconscout.com/icon/free/png-512/free-grafana-3521466-2944910.png?f=avif&w=256"
         subtitle: "monitoring"
         tag: "observability"
         keywords: ""
-        url: "https://grafana.c2a2.com/"
+        url: "https://gee8.com/grafana/"
         target: "_blank"
-
+      - name: "Prometheus"
+        logo: "https://cdn.iconscout.com/icon/free/png-512/free-grafana-3521466-2944910.png?f=avif&w=256"
+        subtitle: "monitoring"
+        tag: "observability"
+        keywords: ""
+        url: "https://gee8.com/prometheus/"
+        target: "_blank"
       - name: "Jaeger UI"
         logo: "https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg"
         subtitle: "traces"
         tag: "observability"
         keywords: "observability"
-        url: "https://tempo-query.c2a2.com/search"
-        target: "_blank"
+        url: "https://gee8.com/jaeger/search"
       - name: "AlertManager"
         logo: "https://luktom.net/wordpress/wp-content/uploads/2019/05/prometheus.png"
         subtitle: "alerts"
         tag: "observability"
         keywords: ""
-        url: "https://alertmanager.c2a2.com/"
-        target: "_blank"
-
+        url: "https://gee8.com/alertmanager/"
 
   - name: "CI / CD"
     icon: "fas fa-robot"
@@ -165,7 +167,7 @@ services:
         subtitle: "Images distribution"
         tag: "containerization"
         keywords: ""
-        url: "https://know-how,download/"
+        url: "https://know-how.download/"
         target: "_blank"
 
       - name: "Containers (svc)"
