@@ -1,0 +1,79 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "· Personal Profile"
+subtitle: "Dima Denysenko's"
+logo: "https://avatars.githubusercontent.com/u/91197884?s=200&v=4"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<pDelivering modern software solutions using best-practices, helping your business grow and make an impact</p>' # set false if you want to hide it.
+
+defaults:
+  layout: list
+  colorTheme: light
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#304D30"
+    highlight-secondary: "#B6C4B6"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+
+message:
+  url: https://microservices.io/
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "RESTful APIs, distributed services, cloud-native architecture."
+  icon: "fa fa-grin"
+  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p><a href='https://github.com/KnowHowSpringBoot'><img align='center' src='https://github-readme-stats.vercel.app/api?username=dimdnk&show_icons=true&hide_rank=true&theme=dark&line_height=27&include_all_commits=true&count_private=true&hide=stars,issues' alt='github stats'/></a></p>"
+
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "CI / CD"
+    icon: "fas fa-robot"
+    items:
+      - name: "Code"
+        logo: "https://img.icons8.com/?size=512&id=52539&format=png"
+        subtitle: "KnowHowSpringBoot Bootcamp"
+        tag: "github"
+        keywords: "pipelines"
+        url: "https://github.com/KnowHowSpringBoot"
+        target: "_blank"
+
+      - name: "Drone CI"
+        logo: "https://img.icons8.com/?size=512&id=DtBUUQ8v7hOR&format=png"
+        subtitle: "Automation Server"
+        tag: "job runner"
+        keywords: "pipelines"
+        url: "https://know-how.run/"
+        target: "_blank"
+
+      - name: "SonarQube"
+        logo: "https://seeklogo.com/images/S/sonarqube-logo-AF25541AAF-seeklogo.com.png"
+        subtitle: "continuous inspection of code quality"
+        tag: "quality gateway"
+        keywords: ""
+        url: "https://know-how.report/"
+        target: "_blank"
+
+      - name: "Nexus"
+        logo: "https://assets-global.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2af61146c55b6e172fa5b3_NexusRepo_Icon.png"
+        subtitle: "Repository Management"
+        tag: "artifacts"
+        keywords: ""
+        url: "https://know-how.nexus/"
+        target: "_blank"

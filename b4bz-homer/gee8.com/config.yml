@@ -1,0 +1,86 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "· Kubernetes"
+subtitle: "Manage Cluster"
+logo: "https://avatars.githubusercontent.com/u/91197884?s=200&v=4"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<pDelivering modern software solutions using best-practices, helping your business grow and make an impact</p>'
+
+defaults:
+  layout: list
+  colorTheme: light
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#EE7214"
+    highlight-secondary: "#F7B787"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#012759"
+    highlight-secondary: "#003273"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Tools"
+    icon: "fas fa-dharmachakra"
+    items:
+      - name: "Kubernetes Dashboard"
+        logo: "https://github.com/kubernetes/community/blob/master/icons/png/infrastructure_components/unlabeled/control-plane-128.png?raw=true"
+        subtitle: "manage workloads"
+        tag: "orchestration"
+        keywords: ""
+        url: "https://dashboard.gee8.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Grafana"
+        logo: "https://cdn.iconscout.com/icon/free/png-512/free-grafana-3521466-2944910.png?f=avif&w=256"
+        subtitle: "monitoring"
+        tag: "observability"
+        keywords: ""
+        url: "https://gee8.com/grafana/"
+        target: "_blank"
+      - name: "Prometheus"
+        logo: "https://cdn.iconscout.com/icon/free/png-512/free-grafana-3521466-2944910.png?f=avif&w=256"
+        subtitle: "monitoring"
+        tag: "observability"
+        keywords: ""
+        url: "https://gee8.com/prometheus/"
+        target: "_blank"
+      - name: "Jaeger UI"
+        logo: "https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg"
+        subtitle: "traces"
+        tag: "observability"
+        keywords: "observability"
+        url: "https://gee8.com/jaeger/search"
+      - name: "AlertManager"
+        logo: "https://luktom.net/wordpress/wp-content/uploads/2019/05/prometheus.png"
+        subtitle: "alerts"
+        tag: "observability"
+        keywords: ""
+        url: "https://gee8.com/alertmanager/"
