@@ -140,7 +140,7 @@ services:
         url: "https://pg.knowhowto.dev/"
         target: "_blank"
       - name: "Mail UI"
-        logo: "https://w7.pngwing.com/pngs/903/849/png-transparent-microsoft-outlook-outlook-com-email-outlook-on-the-web-hotmail-email-miscellaneous-blue-angle-thumbnail.png"
+        logo: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Email_icon.png"
         subtitle: "Message viewer"
         tag: "mail"
         keywords: "smtp relay"
