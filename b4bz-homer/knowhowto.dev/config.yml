@@ -125,3 +125,11 @@ services:
         keywords: "manage virtual hosts"
         url: "https://hosts.knowhowto.dev/"
         target: "_blank"
+      - name: "pgAdmin"
+        logo: "https://static-00.iconduck.com/assets.00/pgadmin-icon-512x512-ghd4xf2u.png"
+        subtitle: "reverse proxy"
+        tag: "db"
+        keywords: "manage db"
+        url: "https://pg.knowhowto.dev/"
+        target: "_blank"
+
