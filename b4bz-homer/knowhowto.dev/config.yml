@@ -75,6 +75,13 @@ services:
   - name: "CI / CD"
     icon: "fas fa-robot"
     items:
+      - name: "Wiki"
+        logo: "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
+        subtitle: ""
+        tag: "knowledge base"
+        keywords: "wiki"
+        url: "https://wiki.knowhowto.dev/"
+        target: "_blank"
       - name: "Code"
         logo: "https://img.icons8.com/?size=512&id=52539&format=png"
         subtitle: "KnowHowSpringBoot Bootcamp"
