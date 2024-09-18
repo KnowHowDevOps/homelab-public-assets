@@ -77,7 +77,7 @@ services:
     items:
       - name: "Wiki"
         logo: "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
-        subtitle: ""
+        subtitle: "collaborative wiki and documentation"
         tag: "knowledge base"
         keywords: "wiki"
         url: "https://wiki.knowhowto.dev/"
