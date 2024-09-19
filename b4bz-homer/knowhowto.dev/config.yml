@@ -50,7 +50,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "RESTful APIs, distributed services, cloud-native architecture."
   icon: "fa fa-grin"
-  content: "<h3>Hey, there!</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'>"
+  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -66,7 +66,7 @@ links:
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
   #  icon: "fas fa-file-alt"
-  #  url: "#additional-page" 
+  #  url: "#additional-page"
 
 # Services
 # First level array represent a group.
@@ -78,18 +78,10 @@ services:
       - name : "Wiki"
         logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
         subtitle : "collaborative wiki and documentation"
-        tag : "docmost"
+        tag : "knowledge base"
         keywords : "wiki"
         url : "https://wiki.knowhowto.dev/"
         target : "_blank"
-      - name : "Bookmarks"
-        logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
-        subtitle : "organize useful webpages and articles"
-        tag : "linkwarden"
-        keywords : "wiki"
-        url : "https://bookmarks.knowhowto.dev/dashboard"
-        target : "_blank"
-
   - name: "Code"
     icon: "fas fa-robot"
     items:
@@ -127,23 +119,12 @@ services:
         url: "https://know-how.nexus/"
         target: "_blank"
 
-      - name: "Container Registry"
+      - name: "Containers"
         logo: "https://img.icons8.com/?size=512&id=22813&format=png"
         subtitle: "Images distribution"
         tag: "containerization"
         keywords: ""
         url: "https://know-how.download/"
-        target: "_blank"
-
-  - name: "K8s Cluster"
-    icon: "fas fa-dharmachakra"
-    items:
-      - name: "Kubernetes Dashboard"
-        logo: "https://avatars.githubusercontent.com/u/37326490?s=200&v=4"
-        subtitle: "manage workloads"
-        tag: "orchestration"
-        keywords: ""
-        url: "https://know-how.space"
         target: "_blank"
 
   - name: "Server Management"
@@ -177,4 +158,3 @@ services:
         keywords: "smtp relay"
         url: "https://mail.knowhowto.dev/"
         target: "_blank"
-
