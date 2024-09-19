@@ -48,9 +48,9 @@ colors:
 message:
   url: https://microservices.io/
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "RESTful APIs, distributed services, cloud-native architecture."
+  title: "Hey, there!"
   icon: "fa fa-grin"
-  content: "<h3>Hey, there!</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p>I'm Dima Denisenko, Software Developer focusing on Java, Spring, Kubernetes, microservices, Kafka, RabbitMQ, etc.</p>"
+  content: "<h3></h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p>I'm Dima Denisenko, Software Developer focusing on Java, Spring, Kubernetes, microservices, Kafka, RabbitMQ, etc. Passionate about creating RESTful APIs, distributed services, cloud-native architecture.</p>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
