@@ -114,7 +114,7 @@ services:
         keywords : "Spring"
         url : "https://github.com/IQKV"
         target : "_blank"
-      - name : "KnowHowJHipster"
+      - name : "KnowHowJHipster (archived)"
         logo : "https://avatars.githubusercontent.com/u/142887785?s=200&v=4"
         subtitle : "JHipster version of the legendary Spring Petclinic application(s)"
         tag : "github"
