@@ -78,10 +78,18 @@ services:
       - name : "Wiki"
         logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
         subtitle : "collaborative wiki and documentation"
-        tag : "knowledge base"
+        tag : "docmost"
         keywords : "wiki"
         url : "https://wiki.knowhowto.dev/"
         target : "_blank"
+      - name : "Bookmarks"
+        logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
+        subtitle : "organize useful webpages and articles"
+        tag : "linkwarden"
+        keywords : "wiki"
+        url : "https://bookmarks.knowhowto.dev/dashboard"
+        target : "_blank"
+
   - name: "Code"
     icon: "fas fa-robot"
     items:
@@ -119,12 +127,23 @@ services:
         url: "https://know-how.nexus/"
         target: "_blank"
 
-      - name: "Containers"
+      - name: "Container Registry"
         logo: "https://img.icons8.com/?size=512&id=22813&format=png"
         subtitle: "Images distribution"
         tag: "containerization"
         keywords: ""
         url: "https://know-how.download/"
+        target: "_blank"
+
+  - name: "K8s Cluster"
+    icon: "fas fa-dharmachakra"
+    items:
+      - name: "Kubernetes Dashboard"
+        logo: "https://avatars.githubusercontent.com/u/37326490?s=200&v=4"
+        subtitle: "manage workloads"
+        tag: "orchestration"
+        keywords: ""
+        url: "https://know-how.space"
         target: "_blank"
 
   - name: "Server Management"
@@ -158,3 +177,4 @@ services:
         keywords: "smtp relay"
         url: "https://mail.knowhowto.dev/"
         target: "_blank"
+
