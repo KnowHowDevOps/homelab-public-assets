@@ -73,7 +73,7 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Project Management"
-    icon: "fas fa-robot"
+    icon: "fa fa-thumbs-up"
     items:
       - name : "Wiki"
         logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
@@ -91,7 +91,7 @@ services:
         target : "_blank"
 
   - name: "Code"
-    icon: "fas fa-robot"
+    icon: "fas fa-code"
     items:
       - name : "KnowHowDevOps"
         logo : "https://cdn-icons-png.freepik.com/512/12219/12219813.png"
