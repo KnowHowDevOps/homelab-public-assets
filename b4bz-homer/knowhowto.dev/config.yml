@@ -121,6 +121,14 @@ services:
         keywords : "Spring"
         url : "https://github.com/KnowHowJHipster"
         target : "_blank"
+      - name : "Gitea"
+        logo : "https://static-00.iconduck.com/assets.00/gitea-icon-512x512-8lvcua7z.png"
+        subtitle : "mirroring code hosting solution"
+        tag : "github"
+        keywords : "git"
+        url : "https://know-how.store"
+        target : "_blank"
+
   - name: "CI / CD"
     icon: "fas fa-robot"
     items:
