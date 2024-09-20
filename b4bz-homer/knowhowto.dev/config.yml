@@ -82,6 +82,13 @@ services:
         keywords : "wiki"
         url : "https://wiki.knowhowto.dev/"
         target : "_blank"
+      - name : "Projects"
+        logo : "https://cdn-icons-png.freepik.com/512/11319/11319782.png"
+        subtitle : "project management system"
+        tag : "OpenProject"
+        keywords : "project management"
+        url : "https://projects.knowhowto.dev/"
+        target : "_blank"
       - name : "Bookmarks"
         logo : "https://cdn-icons-png.freepik.com/256/11904/11904996.png"
         subtitle : "organize useful webpages and articles"
@@ -89,7 +96,6 @@ services:
         keywords : "wiki"
         url : "https://bookmarks.knowhowto.dev/dashboard"
         target : "_blank"
-
   - name: "Code"
     icon: "fas fa-code"
     items:
