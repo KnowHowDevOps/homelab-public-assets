@@ -36,7 +36,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "RESTful APIs, distributed services, cloud-native architecture."
   icon: "fa fa-grin"
-  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p><a href='https://github.com/KnowHowSpringBoot'><img align='center' src='https://github-readme-stats.vercel.app/api?username=dimdnk&show_icons=true&hide_rank=true&theme=dark&line_height=27&include_all_commits=true&count_private=true&hide=stars,issues' alt='github stats'/></a></p>"
+  content: "<h3>Tech Stack</h3><p><img src='https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white'> <img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'> <img src='https://img.shields.io/badge/kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white'><p><a href='https://github.com/KnowHowSpringBoot'><img align='center' src='https://github-readme-stats.vercel.app/api?username=dmitriidaro&show_icons=true&hide_rank=true&theme=dark&line_height=27&include_all_commits=true&count_private=true&hide=stars,issues' alt='github stats'/></a></p>"
 
 
 # Services
